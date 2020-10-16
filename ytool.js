@@ -89,6 +89,24 @@ const ytool = {
             #ytt-cover .close:hover {
                 opacity: .8;
             }
+            @media only screen and (max-width:565px){
+                #ytt-cover .player {
+                    width: 100vw;
+                    height: 70vh;
+                    background: #fff;
+                    border-radius: 5px;
+                    box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.6);
+                    overflow: hidden;
+                }
+                .youtube-tool {
+                      margin-left: auto;
+                      margin-right: auto;
+                      left: 0;
+                      right: 0;
+                      bottom:20px;
+                      text-align: center;
+                }
+            }
         </style>
         `;
         this.others()
