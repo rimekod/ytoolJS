@@ -17,7 +17,8 @@
 ### On Web Page:
 ---
 ![](https://i.hizliresim.com/HynnYa.png)
-
+When opened:
+![](https://i.hizliresim.com/hyEPNS.png)
 ----
 
 License
