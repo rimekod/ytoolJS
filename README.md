@@ -17,7 +17,9 @@
 ### On Web Page:
 ---
 ![](https://i.hizliresim.com/HynnYa.png)
-When opened:
+
+### When opened:
+---
 ![](https://i.hizliresim.com/hyEPNS.png)
 ----
 
