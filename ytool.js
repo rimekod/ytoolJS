@@ -1,6 +1,7 @@
-
 const ytool = {
     create: function(text, link, color){
+        document.body.style.position = "relative";
+        document.body.style.overflowX = "hidden";
         var youtubeVideoId = link.split("?v=")[1];
         document.body.innerHTML = document.body.innerHTML +
         `
@@ -92,11 +93,15 @@ const ytool = {
             @media only screen and (max-width:565px){
                 #ytt-cover .player {
                     width: 100vw;
-                    height: 70vh;
+                    height: 30vh;
                     background: #fff;
-                    border-radius: 5px;
+                    border-radius: 0px;
                     box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.6);
                     overflow: hidden;
+                }
+                #ytt-cover .close {
+                    font-size: 25px;
+                    right:10%;
                 }
                 .youtube-tool {
                       margin-left: auto;
@@ -105,6 +110,7 @@ const ytool = {
                       right: 0;
                       bottom:20px;
                       text-align: center;
+                      border-radius:0px;
                 }
             }
         </style>
