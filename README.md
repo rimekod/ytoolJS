@@ -8,7 +8,7 @@
 
 ### Usage
 ```html
-    <script src="https://cdn.jsdelivr.net/gh/rimekod/ytoolJS@74bd2b7/ytool.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/rimekod/ytoolJS@c3e562a/ytool.js"></script>
 ```
 ```js
     ytool.create("Watch on YouTube", "https://www.youtube.com/watch?v=p15_kE2lz8Y", "dark");
